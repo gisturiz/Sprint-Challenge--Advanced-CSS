@@ -3,8 +3,10 @@
 .header-section nav {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 50%;
     font-size: 1.6rem;
-    margin-top: 25px;
+    margin-top: 20px;
 
     // @media @mobile {
     //     align-items: center;
@@ -15,8 +17,11 @@
     a {
         text-decoration: none;
         color: black;
-        margin: 0px 30px;
-        width: 80px;
-        margin: 0 10px;
+        margin: 0px 40px;
+
+        &:hover {
+            color: red;
+            transition: 0.3s;
+        }
     }
 }
