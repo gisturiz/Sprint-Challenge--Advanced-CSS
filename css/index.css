@@ -197,9 +197,11 @@ p {
   flex-wrap: wrap;
   width: 100%;
 }
-.home .space-images .blast {
-  width: 100%;
-  margin: 20px 25px;
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+    margin: 20px 25px;
+  }
 }
 @media (max-width: 500px) {
   .home .space-images .sky {
@@ -301,6 +303,8 @@ p {
   margin-top: 20px;
 }
 .header-section nav a {
+  display: inline-block;
+  white-space: nowrap;
   text-decoration: none;
   color: black;
   margin: 0px 40px;
