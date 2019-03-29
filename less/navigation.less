@@ -1,5 +1,4 @@
 // Navigation code here
-
 .header-section nav {
     display: flex;
     align-items: center;
@@ -8,16 +7,16 @@
     font-size: 1.6rem;
     margin-top: 20px;
 
-    // @media @mobile {
-    //     align-items: center;
-    //     padding: 0;
-    //     margin: 0;
-    // }
-
     a {
         text-decoration: none;
         color: black;
         margin: 0px 40px;
+
+        @media @phone {
+            display: inline-block;
+            white-space: nowrap;
+            margin: 0 20px;
+        }
 
         &:hover {
             color: red;
