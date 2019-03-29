@@ -1,1 +1,28 @@
 // Navigation code here
+.header-section nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 1.6rem;
+    margin-top: 20px;
+
+    a {
+        display: inline-block;
+        white-space: nowrap;
+        text-decoration: none;
+        color: black;
+        margin: 0px 40px;
+
+        @media @phone {
+            display: inline-block;
+            white-space: nowrap;
+            margin: 0 20px;
+        }
+
+        &:hover {
+            color: red;
+            transition: 0.3s;
+        }
+    }
+}
