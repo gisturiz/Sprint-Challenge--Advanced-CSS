@@ -269,8 +269,9 @@ p {
   cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
-  opacity: 0.5;
   transition: 0.3s;
+  color: #22283A;
+  background: white;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
